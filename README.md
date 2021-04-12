@@ -206,6 +206,7 @@ The scheme for splitting the data is:
 The detailed code of handling missing data can be found [here.](https://github.com/sheldonsebastian/GW-Data-Science-Datathon/blob/main/0_preprocessing_eda.ipynb)
 
 The train-validation-test data had the following percentage of missing data:
+
 ![](images/missing_stats.jpg)
 
 The missing data was imputed using the **most_frequent** strategy. The statistics for imputing missing data was computed using training data. This training data statistic was used in validation and testing data.
