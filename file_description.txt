@@ -1,5 +1,3 @@
-**GW-Data-Science-Datathon**
-
 Folder Structure:
 
 - common: contains utility functions to clean data, perform evaluation, modelling, etc.
