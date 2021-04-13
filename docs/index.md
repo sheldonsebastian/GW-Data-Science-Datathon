@@ -4,7 +4,7 @@ Sheldon Sebastian
 
 ---------------
 
-![](../images/Banner.jpg)
+![](images/Banner.jpg)
 
 # Abstract
 
@@ -96,7 +96,7 @@ To achieve the task of predicting fatality for user in car crash the dataset was
 # 2. WorkFlow
 
 The following tasks were performed in this project:
-![](../images/workflow.png)
+![](images/workflow.png)
 
 
 -----------------
@@ -105,11 +105,11 @@ The following tasks were performed in this project:
 
 The following diagram describe the folder structure:
 
-![](../images/folder_structure_1.jpg)
+![](images/folder_structure_1.jpg)
 
 The **model_trainer** folder contains the following folders:
 
-![](../images/folder_structure_2.jpg)
+![](images/folder_structure_2.jpg)
 
 
 
@@ -147,52 +147,52 @@ The detailed code of the EDA can be found [here.](https://github.com/sheldonseba
 
 This is the target column which we are going to predict. As we can see we have a severe class imbalance, where we have only 173 Fatal encounters and 8008 Non-Fatal encounters.
 
-![](../images/eda3_fatal.jpg)
+![](images/eda3_fatal.jpg)
 
 **2. PERSONTYPE:**
 
 The distribution of PERSONTYPE column is shown below. Majority of values are for Driver.
-![](../images/eda1_person_type.jpg)
+![](images/eda1_person_type.jpg)
 
 **3. AGE:**
 
 The distribution of AGE column is shown below. Majority of participants are in 21-30 range.
-![](../images/eda2_age.jpg)
+![](images/eda2_age.jpg)
 
 **4. MAJORINJURY:**
 
 The distribution of MAJORINJURY column is shown below.
-![](../images/eda4_major.jpg)
+![](images/eda4_major.jpg)
 
 **5. MINORINJURY:**
 
 The distribution of MINORINJURY column is shown below.
-![](../images/eda5_minor.jpg)
+![](images/eda5_minor.jpg)
 
 **6. INVEHICLETYPE:**
 
 The distribution of INVEHICLETYPE column is shown below. Majority of cars are passenger car.
-![](../images/eda6_car_type.jpg)
+![](images/eda6_car_type.jpg)
 
 **7. TICKETISSUED:**
 
 The distribution of TICKETISSUED column is shown below.
-![](../images/eda7_ticket.jpg)
+![](images/eda7_ticket.jpg)
 
 **8. LICENSEPLATESTATE:**
 
 The distribution of LICENSEPLATESTATE column is shown below. Majority of values are DC.
-![](../images/eda8_state.jpg)
+![](images/eda8_state.jpg)
 
 **9. IMPAIRED:**
 
 The distribution of IMPAIRED column is shown below.
-![](../images/eda9_impaired.jpg)
+![](images/eda9_impaired.jpg)
 
 **10. SPEEDING:**
 
 The distribution of SPEEDING column is shown below.
-![](../images/eda10_speeding.jpg)
+![](images/eda10_speeding.jpg)
 
 ### Stratified Train-Validation-Test Split:
 
@@ -207,7 +207,7 @@ The detailed code of handling missing data can be found [here.](https://github.c
 
 The train-validation-test data had the following percentage of missing data:
 
-![](../images/missing_stats.jpg)
+![](images/missing_stats.jpg)
 
 The missing data was imputed using the **most_frequent** strategy. The statistics for imputing missing data was computed using training data. This training data statistic was used in validation and testing data.
 
@@ -371,26 +371,26 @@ The detailed code for model feature importance can be found [here](https://githu
 
 Feature importance for logistic regression is shown below:
 
-![](../images/f_i_lr.jpg)
+![](images/f_i_lr.jpg)
 
 ### Decision Tree:
 
 Feature importance for decision tree is shown below:
 
-![](../images/f_i_dt.jpg)
+![](images/f_i_dt.jpg)
 
 ### Random Forest:
 
 Feature importance for random forest is shown below:
 
-![](../images/f_i_rfc.jpg)
+![](images/f_i_rfc.jpg)
 
 
 ### XGBoost:
 
 Feature importance for XGBoost is shown below:
 
-![](../images/f_i_xgb.jpg)
+![](images/f_i_xgb.jpg)
 
 
 ----------------------
