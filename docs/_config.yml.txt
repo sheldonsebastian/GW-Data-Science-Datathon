@@ -1,2 +1,2 @@
-name: Fatality prediction for car crash
-title: null
+name: Fatality Prediction for Car Crash
+title: Fatality Prediction for Car Crash
