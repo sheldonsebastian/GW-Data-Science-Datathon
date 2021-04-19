@@ -12,6 +12,14 @@ The costs of fatalities and injuries due to traffic accidents have a great impac
 
 *Keywords*: Binary Classification, Class Imbalance, Logistic Regression, Decision Tree, Random Forest, XGBoost, Ensembling
 
+------------------
+
+## Video presentation
+
+[![](images/video_presentation.png)](https://drive.google.com/file/d/1IykEz20X7AGvVzFBwKgKNwO_1WuXggt8/view?usp=sharing)
+
+------------------
+
 ## Table of Contents:
 
 - Introduction
