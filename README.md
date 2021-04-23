@@ -1,6 +1,8 @@
-Website Link: https://sheldonsebastian.github.io/GW-Data-Science-Datathon/
+## Website Link: 
 
-### Folder Structure:
+https://sheldonsebastian.github.io/GW-Data-Science-Datathon/
+
+## Folder Structure:
 
 | Path | Description | 
 |------|-------------|
